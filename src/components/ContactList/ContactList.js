@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { ContactItem } from '../ContactItem/ContactItem';
 import  { Table} from './ContactList.styled';
 
-export const ContactList = ({ contacts, onDelete, onFavorite, favourites }) => {
+export const ContactList = ({ contacts, onDelete}) => {
   return (
     <Table>
       <tbody>
